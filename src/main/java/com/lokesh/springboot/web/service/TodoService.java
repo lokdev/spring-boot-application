@@ -11,7 +11,6 @@ import java.util.List;
 public class TodoService {
     private static List<Todo> todos = new ArrayList<Todo>();
     private static int todoCount = 3;
-
     static {
         todos.add(new Todo(1, "lokesh", "Learn Spring BOOT", new Date(), false));
         todos.add(new Todo(1, "lokesh", "Learn AWS", new Date(), false));
